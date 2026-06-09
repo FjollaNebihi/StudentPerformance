@@ -1,0 +1,2 @@
+Model,Best_Params,CV_F1_Macro,Test_Accuracy,Test_Precision_Macro,Test_Recall_Macro,Test_F1_Macro
+KNN,"{'classifier__metric': 'manhattan', 'classifier__n_neighbors': 11, 'classifier__weights': 'distance', 'feature_selection__k': 3}",0.8209382591601434,0.8475991649269311,0.8175957640037625,0.7408974931063285,0.7540100940476255
