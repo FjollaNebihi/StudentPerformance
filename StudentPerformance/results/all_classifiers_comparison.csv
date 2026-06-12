@@ -1,0 +1,5 @@
+Model,Best_Params,CV_F1_Macro,Test_Accuracy,Test_Precision_Macro,Test_Recall_Macro,Test_F1_Macro
+Random Forest,"{'classifier__max_depth': None, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 50}",0.8578039980546845,0.9164926931106472,0.918259220449414,0.818380181967866,0.8452199189204036
+Neural Network (MLP),"{'classifier__activation': 'relu', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (128, 64, 32), 'classifier__learning_rate_init': 0.01, 'feature_selection__k': 3}",0.8482427940094649,0.906054279749478,0.9087462184873948,0.8140312164408551,0.84217122131057
+KNN,"{'classifier__metric': 'manhattan', 'classifier__n_neighbors': 11, 'classifier__weights': 'distance', 'feature_selection__k': 3}",0.8209382591601434,0.8475991649269311,0.8175957640037625,0.7408974931063285,0.7540100940476255
+Logistic Regression,"{'classifier__C': 10, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs', 'feature_selection__k': 3}",0.6721143757813653,0.8392484342379958,0.7542895285773884,0.679785265059696,0.6937183231924762
