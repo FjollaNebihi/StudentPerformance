@@ -1,0 +1,2 @@
+Model,Best_Params,CV_F1_Macro,Test_Accuracy,Test_Precision_Macro,Test_Recall_Macro,Test_F1_Macro
+Random Forest,"{'classifier__max_depth': None, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 50}",0.8578039980546845,0.9164926931106472,0.9182592204494139,0.818380181967866,0.8452199189204036

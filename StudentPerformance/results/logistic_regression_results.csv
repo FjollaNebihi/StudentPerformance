@@ -1,0 +1,2 @@
+Model,Best_Params,CV_F1_Macro,Test_Accuracy,Test_Precision_Macro,Test_Recall_Macro,Test_F1_Macro
+Logistic Regression,"{'classifier__C': 10, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs', 'feature_selection__k': 3}",0.6721143757813653,0.8392484342379958,0.7542895285773884,0.679785265059696,0.6937183231924762
