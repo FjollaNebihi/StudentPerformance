@@ -1,2 +1,2 @@
 Model,Best_Params,CV_F1_Macro,Test_Accuracy,Test_Precision_Macro,Test_Recall_Macro,Test_F1_Macro
-Neural Network (MLP),"{'classifier__activation': 'relu', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (128, 64, 32), 'classifier__learning_rate_init': 0.01, 'feature_selection__k': 3}",0.8482427940094649,0.906054279749478,0.9087462184873949,0.8140312164408551,0.84217122131057
+Neural Network (MLP),"{'classifier__activation': 'tanh', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (128, 64, 32), 'classifier__learning_rate_init': 0.001, 'classifier__max_iter': 200, 'feature_selection__k': 3}",0.8631813311976833,0.9123173277661796,0.8980483405483406,0.8229542781082273,0.8467641350995393
